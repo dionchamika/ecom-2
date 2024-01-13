@@ -28,5 +28,5 @@ jobs:
     - run: npm config set registry https://registry.npmjs.org/
     - run: npm config set registry https://registry.yarnpkg.com/
     - run: npm cache clean -f
-    - run: npm install --verbose
+    - run: npm install
     - run: npm run build
