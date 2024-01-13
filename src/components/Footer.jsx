@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="d-flex align-items-center justify-content-center pb-5">
           <div className="col-md-6">
             <p className="mb-3 mb-md-0">&copy; {" "}
-              2024 | Matri6
+              2024 | Matri6-test
             </p>
           </div>
         </div>
