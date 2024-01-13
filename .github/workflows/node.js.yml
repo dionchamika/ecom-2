@@ -26,6 +26,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm config set registry https://registry.npmjs.org/
+    - run: npm config set registry https://registry.yarnpkg.com/
     - run: npm cache clean -f
-    - run: npm install
+    - run: npm install --verbose
     - run: npm run build
